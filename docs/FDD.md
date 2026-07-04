@@ -158,7 +158,7 @@ Response `201 Created` — a secret é gerada pela plataforma e **devolvida na c
   "url": "https://integracao.atlascomercial.com.br/oms/webhook",
   "statuses": ["SHIPPED", "DELIVERED"],
   "active": true,
-  "secret": "whsec_9f8e7d6c5b4a3f2e1d0c9b8a7f6e5d4c",
+  "secret": "exemplo-secret-ficticia-9f8e7d6c5b4a3f2e",
   "createdAt": "2024-11-07T12:00:00.000Z"
 }
 ```
@@ -233,7 +233,7 @@ Sem body. Response `200 OK` — nova secret devolvida; a antiga permanece válid
 ```json
 {
   "id": "7f9b2c4d-1e2f-4a5b-8c9d-0e1f2a3b4c5d",
-  "secret": "whsec_1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d",
+  "secret": "exemplo-secret-ficticia-1a2b3c4d5e6f7a8b",
   "previousSecretExpiresAt": "2024-11-08T12:00:00.000Z"
 }
 ```
